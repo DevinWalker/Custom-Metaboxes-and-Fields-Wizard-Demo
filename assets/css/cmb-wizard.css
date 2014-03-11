@@ -1,0 +1,39 @@
+/**
+ * CMB Wizard Styles
+ */
+
+/* Clearfix for postbox */
+.postbox {
+	*zoom: 1;
+}
+
+.postbox:before, .postbox:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.postbox:after {
+	clear: both;
+}
+
+/* Prev/Next buttons */
+.wp-core-ui .button.cmb-wizard-next {
+	float: right;
+	margin: 0 20px 20px 0;
+}
+
+.wp-core-ui .button.cmb-wizard-previous {
+	float: left;
+	margin: 0 0 20px 20px;
+}
+
+/* Metabox Styles */
+.postbox-container {
+	position: relative;
+}
+.cmb-wizard-metabox {
+	/* Stacks the metaboxes */
+	position: absolute;
+	width:100%;
+}
